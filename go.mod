@@ -1,6 +1,6 @@
 module github.com/aboots-b/kafka-connect-cli
 
-go 1.19
+go 1.24.1
 
 require (
 	github.com/spf13/cobra v1.9.1
