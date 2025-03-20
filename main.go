@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mattcolombo/kafka-connect-cli/cmd"
+	"github.com/aaboots-b/kafka-connect-cli/cmd"
 )
 
 func main() {

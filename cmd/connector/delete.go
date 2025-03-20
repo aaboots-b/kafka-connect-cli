@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/mattcolombo/kafka-connect-cli/utilities"
+	"github.com/aaboots-b/kafka-connect-cli/utilities"
 	"github.com/spf13/cobra"
 )
 

@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mattcolombo/kafka-connect-cli/cmd/cluster"
-	"github.com/mattcolombo/kafka-connect-cli/cmd/connector"
-	"github.com/mattcolombo/kafka-connect-cli/cmd/getconfig"
-	"github.com/mattcolombo/kafka-connect-cli/cmd/logger"
-	"github.com/mattcolombo/kafka-connect-cli/cmd/task"
-	"github.com/mattcolombo/kafka-connect-cli/cmd/version"
+	"github.com/aaboots-b/kafka-connect-cli/cmd/cluster"
+	"github.com/aaboots-b/kafka-connect-cli/cmd/connector"
+	"github.com/aaboots-b/kafka-connect-cli/cmd/getconfig"
+	"github.com/aaboots-b/kafka-connect-cli/cmd/logger"
+	"github.com/aaboots-b/kafka-connect-cli/cmd/task"
+	"github.com/aaboots-b/kafka-connect-cli/cmd/version"
 	"github.com/spf13/cobra"
 )
 
@@ -24,7 +24,7 @@ Allows to gather information about the cluster, connectors, tasks loggers and ma
 ---
 Requires a configuration file either selected through an environment variable "CONNECTCFG" or located in the current working directory.
 ---
-Further details and documentation can be found at https://github.com/mattcolombo/kafka-connect-cli`,
+Further details and documentation can be found at https://github.com/aaboots-b/kafka-connect-cli`,
 }
 
 func init() {
