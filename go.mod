@@ -3,7 +3,7 @@ module github.com/aboots-b/kafka-connect-cli
 go 1.24.1
 
 require (
-	github.com/spf13/cobra v1.9.1
+	github.com/spf13/cobra v1.7.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
