@@ -1,4 +1,4 @@
-module github.com/aboots-b/kafka-connect-cli
+module github.com/aaboots-b/kafka-connect-cli
 
 go 1.24.1
 

@@ -27,3 +27,4 @@ REFERENCES.txt
 # for now we exclude all the build assets
 installation/build-output/*
 samples-experiments
+builder/*
